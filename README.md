@@ -1,24 +1,18 @@
-In this project our main target to fix crosses easily in our Telecominication Network.
+INSTALLATION
+Theese libraries should be imported ; matplotlib, pandas, math, numpy.
 
-
-So what is Cross?
-
-Network elements’ deployments are significantly effect the further network performance .The sites or cells are getting activated after those deployment operations are implemented. Sometimes there can be problems on cable , port or database adjustments called cross. It can be Sector Cross, Tx/Rx cross, Database cross etc.
-
-Exactly Cross means ; If two or more antennas in a site serve each others areas, it means there can be cross.
+PROJECT MOTIVATION
+Find if there is a cross under a site or not.
+If two or more cells under a site serves each others areas, these cells have cross possibilities.
 
 Why do we have to fix Crosses?
-
 It increases the efficiency of planning and optimization works.
 Clear database make us optimize the Network clearer.
 
-How does not fixing this impact the network?
+File Descriptions
+You can see Cell_Azimuth.xlsx file contains 2 cells with their event points.
+There is 6 columns like :  Cell,event locations,site locations and Cell's actual azimuth value.
+Please look at the Azimuth_project.ipynb file to understand how the system works.
 
-It can causes problems in KPIs and Customer Experiences.
-It may lead to inaccuracies in prioritization in new field or new carrier additions and the others analysis like this.
-
-What do we do?
-
-Make an Automation that detect crossed cells and reduce a lot of time spent on manual cross check.
-
-
+Result
+The main findings of the code can be found at the post available at .
